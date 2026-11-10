@@ -1,0 +1,22 @@
+{
+  "name": "dazn-e2e",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "e2e run",
+    "test:list": "e2e list",
+    "test:doctor": "e2e doctor",
+    "test:report": "node scripts/generate-report.mjs"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^4.0.116",
+    "@e2e-dev/mobile": "^0.12.6",
+    "ai": "^7.0.168",
+    "dotenv": "^18.0.10",
+    "e2e": "^0.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
